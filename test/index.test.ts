@@ -136,5 +136,11 @@ describe('index.test.ts', () => {
       assert.equal(logs[0], '[😄哈哈] foo \'bar\' 1');
       assert.equal(logs[1], 'biz logger here');
     });
+
+    it('should throw error when set Logger instance', () => {
+      assert.throws(() => {
+        setCustomLogger('logger', getLogger());
+      }, /can\'t set realLogger to Logger instance/);
+    });
   });
 });
