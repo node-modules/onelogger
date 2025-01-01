@@ -5,6 +5,7 @@
 [![Test coverage][codecov-image]][codecov-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
+[![Node.js Version](https://img.shields.io/node/v/onelogger.svg?style=flat)](https://nodejs.org/en/download/)
 
 [npm-image]: https://img.shields.io/npm/v/onelogger.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/onelogger
@@ -66,16 +67,8 @@ getCustomLogger('myBizLogger');
 
 ## License
 
-[MIT](LICENSE.txt)
-
-<!-- GITCONTRIBUTOR_START -->
+[MIT](LICENSE)
 
 ## Contributors
 
-|[<img src="https://avatars.githubusercontent.com/u/156269?v=4" width="100px;"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|
-| :---: |
-
-
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sat Jan 20 2024 22:39:14 GMT+0800`.
-
-<!-- GITCONTRIBUTOR_END -->
+[![contributors](https://contrib.rocks/image?repo=node-modules/onelogger&max=240&columns=26)](https://github.com/node-modules/onelogger/graphs/contributors)

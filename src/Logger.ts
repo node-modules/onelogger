@@ -7,7 +7,10 @@ declare global {
   var __ONE_LOGGER_INSTANCES__: Map<string, ILogger>;
 }
 
-globalThis.__ONE_LOGGER_INSTANCES__ = new Map<string, ILogger>();
+// make sure we have a global logger instances map
+if (!globalThis.__ONE_LOGGER_INSTANCES__) {
+  globalThis.__ONE_LOGGER_INSTANCES__ = new Map<string, ILogger>();
+}
 
 export interface LoggerOptions {
   loggerName: string;
